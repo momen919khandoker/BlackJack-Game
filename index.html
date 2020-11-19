@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1 text-center" id="container-1">
+        <h2 class="text-primary">Blackjack</h2>
+        <span id="play" class="h3">Let's play</span>
+        <div id="flex-box-row-1" class=" flexbox-container-1 mt-2">
+            <div class="col" id="your-div">
+                <h2 class="text-light">You:<span id="your-score">0</span></h2>
+            </div>
+            <div class="col" id="dealer-div">
+                <h2 class="text-light">Dealer:<span id="dealer-score">0</span></h2>
+            </div>
+        </div>
+        <div id="flex-box-row-2" class=" flexbox-container-1">
+            <button id="hit" class="btn-lg  btn-primary">Hit</button>
+            <button id="stand" class="btn-lg  btn-warning">Stand</button>
+            <button id="deal" class="btn-lg  btn-danger">Replay</button>
+        </div>
+    </div>
+    <div class="flexbox-container-2">
+        <table class="">
+            <tr>
+                <th class="text-dark">Wins</th>
+                <th class="text-dark">Losses</th>
+                <th class="text-dark">Draws</th>
+            </tr>
+            <tr>
+                <td class="text-dark"><span id="wins">0</span></td>
+                <td class="text-dark"><span id="losses">0</span></td>
+                <td class="text-dark"><span id="draws">0</span></td>
+            </tr>
+        </table>
+        </div>
+<!-- J-Query -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/bootstrap.js"></script>
+<!-- Script js -->
+<script src="script.js"></script>
+</body>
+</html>
