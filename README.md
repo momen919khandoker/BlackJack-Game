@@ -1,2 +1,2 @@
 # BlackJack-Game
-My name is Momen Khandoker
+Hello, I am Momen Khandoker
